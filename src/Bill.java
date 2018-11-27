@@ -9,8 +9,8 @@ public class Bill {
 	private int year;
 	private float total;
 	
-	public boolean AddArticleToBill(Article art) 
+	/*public boolean AddArticleToBill(Article art) 
 	{
 		
-	}
+	}*/
 }
