@@ -8,6 +8,7 @@ public class Bill {
 	private int month;
 	private int year;
 	private float total;
+	private int prueba;
 	
 	/*public boolean AddArticleToBill(Article art) 
 	{
