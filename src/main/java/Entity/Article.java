@@ -1,11 +1,14 @@
 package Entity;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "book")
-
+@Table(name = "article")
 public class Article {
 
 	private int code;
@@ -43,7 +46,9 @@ public class Article {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+	@Id
+	@Column(name = "article_code")
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
 	public int getCode() {
 		return code;

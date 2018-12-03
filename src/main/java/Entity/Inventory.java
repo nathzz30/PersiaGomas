@@ -1,6 +1,8 @@
 package Entity;
 import java.util.ArrayList;
 
+
+
 public class Inventory {
 
 	private ArrayList<Article> articles = new ArrayList<Article>();
@@ -16,7 +18,7 @@ public class Inventory {
 		// TODO Auto-generated constructor stub
 	}
 	
-	
+
 	public ArrayList<Article> getArticles() {
 		return articles;
 	}
